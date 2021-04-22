@@ -1,0 +1,15 @@
+.page-container-employees {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.filter-container {
+    text-align: right;
+}
+
+.filter-input {
+    padding: 4px;
+    border-radius: 3px;
+    border-color: black;
+    border-width: 1px;
+}

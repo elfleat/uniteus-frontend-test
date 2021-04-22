@@ -1,0 +1,7 @@
+.page-container-add-employee form {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px 0px 5px;
+    background-color: #f6f6f6;
+}
