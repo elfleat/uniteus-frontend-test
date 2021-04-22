@@ -1,0 +1,23 @@
+.employee-list-container {
+    margin: 10px auto;
+}
+
+.employee-list-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.employee-list-container li{
+    list-style: none;
+    margin: 4px 0;
+    padding: 0;
+    background: lightgray;
+    border-radius: 4px;
+    padding: 7px 15px;
+    text-align: left;
+}
+
+.employee-list-container li span {
+    display: inline-block;
+    width: 33.3%;
+}
