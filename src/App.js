@@ -15,16 +15,17 @@ const App = () => {
       <Menu />
 
       <Switch>
-          <Route exact path="/">
-            <Employees />
-          </Route>
-          <Route path="/add">
-            <AddEmployees />
-          </Route>
-        </Switch>
+        <Route exact path="/">
+          <Employees />
+        </Route>
+        <Route path="/add">
+          <AddEmployees />
+        </Route>
+      </Switch>
+
     </div>
     </Router>
   );
-}
+};
 
 export default App;
