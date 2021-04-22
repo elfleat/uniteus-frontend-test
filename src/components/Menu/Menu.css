@@ -1,0 +1,32 @@
+.menu-container {
+    margin: 50px auto 20px;
+}
+
+.menu-container li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu-container li a {
+    font-size: 24px;
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px 7px;
+    transition: all 250ms ease-in-out;
+    border-bottom: 7px solid transparent;
+}
+
+.menu-container li a:hover {
+    opacity: 0.8;
+}
+
+.menu-container li a.active {
+    border-bottom-color: black;    
+}
+
+.menu-container li a.active {
+    opacity: 1;
+    font-weight: bold;
+}
