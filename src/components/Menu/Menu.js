@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import './Menu.css';
+import './menu.css';
 
 const MenuItem = ({ to, label }) => {
     return (
