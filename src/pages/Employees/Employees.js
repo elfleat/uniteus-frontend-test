@@ -18,7 +18,7 @@ const Employees = () => {
     
     return (
         <EmployeesContext.Consumer>
-            {({ employees, addEmployee }) => (
+            {({ employees }) => (
                 <div className="page-container-employees">
                     <div className="filter-container">
                         <Input className="filter-input" value={filter} placeholder="Search by name" onChange={setFilter} />

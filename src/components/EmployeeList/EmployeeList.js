@@ -16,7 +16,7 @@ const EmployeeList = ({ employees }) => {
   return (
     <div className="employee-list-container">
       <ul>
-        {employees.map(employee => <EmployeeListItem key={employee.id} employee={employee} />)}
+        {employees.map(employee => <EmployeeListItem key={`${employee.id}+${employee.name}`} employee={employee} />)}
       </ul>
     </div>
   );
